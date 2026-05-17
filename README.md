@@ -1,6 +1,20 @@
 # plato-model-ocean
 
-Cellular intelligence ecosystem — evolutionary neural networks organized into ecological niches.
+**Evolve a living ecosystem of neural networks — from throwaway experiments to deep reasoners, all under 100K parameters.**
+
+[![License](https://img.shields.io/badge/license-MIT-blue)]()
+
+## Why?
+
+A single model does one thing. An ocean of models does everything — some cells experiment wildly (30% mutation), others specialize deeply (1% mutation), and the best evolve upward through four ecological niches. The whole ecosystem fits in 400KB and runs on CPU.
+
+Use this when you need diverse, self-organizing intelligence that adapts to multiple tasks without manual architecture search. Each cell trains on a task stream, competes for fitness, and the winners reproduce and promote.
+
+## Install
+
+```bash
+pip install plato-model-ocean
+```
 
 ## Architecture
 
@@ -65,6 +79,13 @@ Cells evolve through:
 3. **Reproduction** — Cells with fitness > 0.75 may spawn mutated offspring
 4. **Death** — Cells exceeding their lifespan are removed
 5. **Promotion** — High-performing cells graduate to the next niche (sandbox → tide pool → school → whale)
+
+## Related
+
+- **[plato-room-intelligence](https://github.com/SuperInstance/plato-room-intelligence)** — Multi-head model with provenance tracking
+- **[plato-escalation-gate](https://github.com/SuperInstance/plato-escalation-gate)** — When to escalate from ocean to LLM (737 params)
+- **[plato-training](https://github.com/SuperInstance/plato-training)** — Micro model training pipeline
+- **[ASSEMBLY-GUIDE](https://github.com/SuperInstance/plato-training/blob/master/ASSEMBLY-GUIDE.md)** — Full ecosystem assembly guide (Pattern 3: Model Ocean)
 
 ## License
 
