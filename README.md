@@ -1,5 +1,7 @@
 # plato-model-ocean
 
+
+![CI](https://github.com/SuperInstance/plato-model-ocean/actions/workflows/ci.yml/badge.svg)
 **Evolve a living ecosystem of neural networks — from throwaway experiments to deep reasoners, all under 100K parameters.**
 
 [![License](https://img.shields.io/badge/license-MIT-blue)]()
